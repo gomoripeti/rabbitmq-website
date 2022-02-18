@@ -72,7 +72,7 @@ and node failures.
 
 Modern Shovel versions support multiple protocols: AMQP 0.9.1 and AMQP 1.0.
 
-This means it is possible to shovel, e.g. from and AMQP 1.0
+This means it is possible to shovel, e.g. from an AMQP 1.0
 broker source to a RabbitMQ destination and vice versa.
 More protocols may be supported in the future.
 
