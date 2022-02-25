@@ -1921,7 +1921,7 @@ SslOpts = [{cacertfile, &quot;/path/to/ca_certificate.pem&quot;},
 
 Params = #amqp_params_network{host = "my.rmq-server.net",
                               port = 5671,
-                              ssl_options = SslOpts}
+                              ssl_options = SslOpts},
 
 {ok, Conn} = amqp_connection:start(Params),
 </pre>
